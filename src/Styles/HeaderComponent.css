@@ -1,0 +1,14 @@
+header {
+}
+
+.logo {
+  background-image: url("../Images/house-home-in-jungle.jpg");
+  background-size: cover;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-stroke-color: rgb(2, 66, 2);
+  -webkit-text-stroke-width: 2px;
+  font-size: 168px;
+  font-family: 'Roboto Slab';
+  word-spacing: 72px;
+}
