@@ -37,6 +37,10 @@ button {
   color: white;
 }
 
+.selector:focus::placeholder {
+  color: rgba(0, 0, 0, 0.285);
+}
+
 button {
   padding: 1.2rem 3.6rem;
 }
