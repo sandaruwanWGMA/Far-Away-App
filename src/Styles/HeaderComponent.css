@@ -1,14 +1,19 @@
-header {
-}
-
 .logo {
-  background-image: url("../Images/house-home-in-jungle.jpg");
+  position: absolute;
+  top: 18%;
+  left: 0;
+  right: 0;
+  background-image: url("../Images/sandy-beach-by-rocky-cliffs.jpg");
+  background-position: center 500%;
   background-size: cover;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-color: transparent;
   -webkit-background-clip: text;
-  -webkit-text-stroke-color: rgb(1, 93, 1);
-  -webkit-text-stroke-width: 2px;
-  font-size: 168px;
-  font-family: 'Roboto Slab';
+  -webkit-text-stroke-color: white;
+  -webkit-text-stroke-width: 4px;
+  font-size: 22rem;
+  font-family: "Roboto Slab";
   word-spacing: 72px;
+  text-align: center;
 }

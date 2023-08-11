@@ -1,6 +1,5 @@
 import React from "react";
 import "../Styles/HeaderComponent.css";
-import Logo from "./Logo";
 
 function HeaderComponent(props) {
   return (
@@ -11,9 +10,7 @@ function HeaderComponent(props) {
       ></link>
 
       <header>
-        <nav>
-          <h1 className="logo">Far Away</h1>
-        </nav>
+        <h1 className="logo">Far Away</h1>
       </header>
     </>
   );

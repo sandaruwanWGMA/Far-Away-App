@@ -1,0 +1,20 @@
+.close-btn {
+  background: none;
+  border: none;
+}
+
+.close-btn:hover {
+  cursor: pointer;
+}
+
+.item {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  padding-top: 3.2rem;
+}
+
+.quantity {
+  padding-bottom: 0.6rem;
+}
