@@ -1,6 +1,7 @@
 import React, { useState } from "react";
-import PackingList from "./PackingList";
 import "../Styles/Form.css";
+
+let ID = 1;
 
 function FormComponent({ onAddItems }) {
   const [quantity, setQuantity] = useState(1);
@@ -8,9 +9,10 @@ function FormComponent({ onAddItems }) {
 
   const onSubmit = (e) => {
     e.preventDefault();
-    onAddItems({ item, quantity });
+    onAddItems({ id: ID, item, quantity, packed: false });
     setQuantity(1);
     setItem("");
+    ID += 1;
   };
 
   return (

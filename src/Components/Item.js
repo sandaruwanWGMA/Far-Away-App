@@ -1,12 +1,23 @@
-import React from "react";
+import React, { useState } from "react";
 import "../Styles/Item.css";
 
-function Item({ item, quantity, handleSetItems }) {
+function Item({ item, quantity, packed, id, setPacked, handleSetItems }) {
+  const [checked, seChecked] = useState(false);
+
   return (
     <div className="item">
-      <p className="quantity">{quantity} </p>
-      <p>
-        {item}{" "}
+      <input
+        className="checkbox"
+        type="checkbox"
+        checked={checked}
+        onChange={() => {
+          seChecked(!checked);
+          setPacked(id, checked);
+        }}
+      ></input>
+      {console.log("packed ", packed)}
+      <p style={{ textDecoration: packed ? "line-through" : "none" }}>
+        {quantity} {item}{" "}
         <button onClick={() => handleSetItems(item)} className="close-btn">
           ❌
         </button>

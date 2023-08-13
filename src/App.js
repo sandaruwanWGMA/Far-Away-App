@@ -13,6 +13,18 @@ function App() {
     setItemList([...itemList, item]);
   }
 
+  const setPacked = (id, status) => {
+    setItemList(
+      itemList.map((item) => {
+        if (item.id === id) {
+          return { ...item, packed: !status };
+        } else {
+          return item;
+        }
+      })
+    );
+  };
+
   const setDeleteItems = (item) => {
     setItemList(itemList.filter((element) => element.item != item));
   };
@@ -28,6 +40,7 @@ function App() {
       <PackingList
         itemsList={itemList}
         handleSetItems={setDeleteItems}
+        setPacked={setPacked}
       ></PackingList>
       <footer>
         <h2>Happy Journey! 🚴‍♂️</h2>

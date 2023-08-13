@@ -18,3 +18,9 @@
 .quantity {
   padding-bottom: 0.6rem;
 }
+
+.checkbox {
+  width: 2rem;
+  height: 2rem;
+  background-color: aqua;
+}

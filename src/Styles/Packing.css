@@ -1,7 +1,7 @@
 .packing-list {
   flex: 1;
   display: grid;
-  grid-template-columns: repeat(auto-fit, max(1fr));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   padding: 10rem;
   padding-top: 4rem;
 }
@@ -30,4 +30,15 @@
   padding: 1rem;
   border: black solid 0.2rem;
   min-height: 40rem;
+}
+
+.selector-sorting {
+  display: block;
+  margin: auto;
+  border: none;
+  background-color: #228be6;
+  font-size: 1.4rem;
+  padding: 1.2rem 2rem;
+  color: white;
+  border-radius: 1rem;
 }
