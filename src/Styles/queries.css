@@ -1,0 +1,111 @@
+@media (max-width: 1200px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media (max-width: 950px) {
+  html {
+    font-size: 40%;
+  }
+}
+
+@media (max-width: 800px) {
+  html {
+    font-size: 30%;
+  }
+}
+
+@media (max-width: 650px) {
+  html {
+    font-size: 20%;
+  }
+
+  .logo {
+    font-size: 40rem;
+  }
+}
+
+@media (max-width: 380px) {
+  html {
+    font-size: 10%;
+  }
+
+  .logo {
+    font-size: 65rem;
+  }
+
+  .item p,
+  .item button {
+    font-size: 12px;
+  }
+  .item .checkbox {
+    width: 12px;
+    height: 12px;
+  }
+  header h2 {
+    font-size: 16px;
+  }
+  .selector,
+  .class-btn,
+  .option-select,
+  .form-container h1 {
+    font-size: 8px;
+  }
+
+  .selector {
+    width: 60px;
+  }
+
+  .class-btn {
+    padding: 4px 14px;
+  }
+  .selector-sorting {
+    font-size: 8px;
+  }
+  footer h2 {
+    font-size: 8px;
+  }
+}
+
+@media (max-width: 300px) {
+  html {
+    font-size: 6%;
+  }
+
+  .logo {
+    font-size: 85rem;
+  }
+
+  .item p,
+  .item button {
+    font-size: 10px;
+  }
+  .item .checkbox {
+    width: 10px;
+    height: 10px;
+  }
+  header h2 {
+    font-size: 14px;
+  }
+  .selector,
+  .class-btn,
+  .option-select,
+  .form-container h1 {
+    font-size: 6px;
+  }
+
+  .selector {
+    width: 50px;
+  }
+
+  .class-btn {
+    padding: 4px 10px;
+  }
+  .selector-sorting {
+    font-size: 6px;
+  }
+  footer h2 {
+    font-size: 8px;
+  }
+}
