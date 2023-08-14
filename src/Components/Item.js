@@ -15,7 +15,6 @@ function Item({ item, quantity, packed, id, setPacked, handleSetItems }) {
           setPacked(id, checked);
         }}
       ></input>
-      {console.log("packed ", packed)}
       <p style={{ textDecoration: packed ? "line-through" : "none" }}>
         {quantity} {item}{" "}
         <button onClick={() => handleSetItems(item)} className="close-btn">
